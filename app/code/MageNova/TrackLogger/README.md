@@ -1,51 +1,24 @@
-# MageNova Module MageNova TrackLogger
+Privacy Policy for MageNova
 
-    ``magenova/module-tracklogger``
+Effective Date: 07/10/2025
 
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
+MageNova (“we”, “our”, or “us”) respects your privacy. This Privacy Policy explains how our Magento 2 extension, MageNova TrackLogger, collects, uses, and protects any information.
 
+1. Information Collection
+Our extension does not collect any personally identifiable information (PII) from users. Any data processed is only for functional purposes within Magento and stays on your server.
 
-## Main Functionalities
-Track Logs
+2. Use of Information
+Since we do not collect personal data, we do not use it for any purposes.
 
-## Installation
-\* = in production please use the `--keep-generated` option
+3. Data Security
+We implement reasonable technical measures to ensure the extension functions securely within your Magento environment.
 
-### Type 1: Zip file
+4. Third-Party Services
+Our extension does not share any data with third-party services.
 
- - Unzip the zip file in `app/code/MageNova`
- - Enable the module by running `php bin/magento module:enable MageNova_TrackLogger`
- - Apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
+5. Changes to This Policy
+We may update this Privacy Policy occasionally. Users will be notified through updated documentation or the extension release notes.
 
-### Type 2: Composer
-
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require magenova/module-tracklogger`
- - enable the module by running `php bin/magento module:enable MageNova_TrackLogger`
- - apply database updates by running `php bin/magento setup:upgrade`\*
- - Flush the cache by running `php bin/magento cache:flush`
-
-
-## Configuration
-
-
-
-
-## Specifications
-
-
-
-
-## Attributes
-
-
-
+6. Contact Us
+For questions regarding this Privacy Policy, please contact us at:
+tarunbhaglani@gmail.com

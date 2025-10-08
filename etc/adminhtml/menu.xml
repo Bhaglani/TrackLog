@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageNova::top_level" title="MageNova" module="MageNova_TrackLogger" sortOrder="1" resource="Magento_Backend::content"/>
+        <add id="MageNova_TrackLogger::magenova_tracklogger" title="TrackLog" module="MageNova_TrackLogger" sortOrder="2" resource="Magento_Backend::content" parent="MageNova::top_level" action="magenovalog/tracklogs/index" dependsOnConfig="track_logs/logs/enable"/>
+    </menu>
+</config>

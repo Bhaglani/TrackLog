@@ -1,6 +1,6 @@
 {
     "name": "magenova/module-tracklogger",
-    "description": "Track Logs for Magento 2 admin panel",
+    "description": "Simplify Magento log management — access, preview, and download log files securely from the admin panel.",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
